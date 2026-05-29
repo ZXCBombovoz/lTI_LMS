@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    { "source": "/labs", "destination": "/api/index?vp=" },
+    { "source": "/labs/", "destination": "/api/index?vp=" },
+    { "source": "/labs/(.*)", "destination": "/api/index?vp=$1" }
+  ],
+  "functions": {
+    "api/index.py": {
+      "includeFiles": "api/_labs/**"
+    }
+  }
+}

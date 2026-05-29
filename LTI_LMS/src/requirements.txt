@@ -1,0 +1,2 @@
+# Лабам достаточно stdlib: http.server, sqlite3, hmac, hashlib, ast, json, base64.
+# Никаких внешних зависимостей.
